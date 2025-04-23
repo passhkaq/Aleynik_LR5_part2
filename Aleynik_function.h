@@ -45,16 +45,18 @@ void enterB() {
     enterNumber(b, "Enter n: ", 0, 1000);
 }
 
-void addition() {
+int addition(int a, int b) {
     int result;
     result = a + b;
     cout << "Result: " << result << endl;
+    return result;
 }
 
-void subtraction() {
+int subtraction(int a, int b) {
     int result;
     result = a - b;
     cout << "Result: " << result << endl;
+    return result;
 }
 
 #endif //ALEYNIK_FUNCTION_H_

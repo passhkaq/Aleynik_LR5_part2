@@ -3,7 +3,7 @@
 int main() {
     enterA();
     enterB();
-    addition();
-    subtraction();
+    addition(a, b);
+    subtraction(a, b);
     return 0;
 }
